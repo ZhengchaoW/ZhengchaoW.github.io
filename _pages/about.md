@@ -14,7 +14,7 @@ I earned my Bachelor's degree in Mathematics at Peking University in 2016.
 
 I'm interested in metric geometry, optimal transport and their practical applications.
 
-Contact
+## Contact
 
 Email：wan.252@osu.edu
 
