@@ -16,7 +16,7 @@ I'm interested in metric geometry, optimal transport and their practical applica
 
 ## Contact
 
-Email：wan.252@osu.edu
+Email：wan.252(at)osu.edu
 
 Address：Room 605, Mathematics Tower, 231 W 18th Ave, Columbus, OH
 
