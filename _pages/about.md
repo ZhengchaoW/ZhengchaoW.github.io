@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 4th year PhD Candidate in Mathematics at the Ohio State University. My advisor is [Facundo Mémoli](https://people.math.osu.edu/memolitechera.1/).
+I am currently a 5th year PhD Candidate in Mathematics at the Ohio State University. My advisor is [Facundo Mémoli](https://people.math.osu.edu/memolitechera.1/).
 
 I earned my Bachelor's degree in Mathematics at Peking University in 2016.
 
