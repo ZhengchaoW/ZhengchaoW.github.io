@@ -1,0 +1,42 @@
+papers:
+  - title: "The ultrametric Gromov-Wasserstein distance"
+    link: https://arxiv.org/pdf/2101.05756.pdf
+    coauthors: Facundo Mémoli, Axel Munk and Christoph Weitkamp
+    publishedat: arXiv
+  - title: "Predictors of enrollment in opioid agonist therapy after opioid overdose or diagnosis with opioid use disorder: A cohort study"
+    link: https://www.sciencedirect.com/science/article/pii/S0376871620306001?via%3Dihub
+    coauthors: Alexandria Macmadu, Kimberly Paull, Rouba Youssef, Sivakumar Batthala, Elizabeth A. Samuels, Jesse L. Yedinak, Brandon D.L. Marshall
+    publishedat: Drug and Alcohol Dependence. Volume 219, 1 February 2021
+    description: "Utilizing Rhode Island's Ecosystem of administrative data, we find that the majority (58%) of Medicaid recipients did not enroll in opioid agonist therapy within 6 months of diagnosis. We explore various potential protective factors."
+  - title: The number of quartic D4-fields ordered by conductor
+    link: https://arxiv.org/pdf/1704.01729.pdf
+    coauthors: Ali Altug, Arul Shankar, Ila Varma
+    publishedat: Journal of the European Mathematical Society. Forthcoming.
+    description: We exploit a symmetry of the group of symmetries of the square to give the asymptotic density of discriminants of D4-extensions of the rationals.
+  - title: "A Cautionary Tail: A Framework and Case Study for Testing Predictive Model Validity"
+    link: https://arxiv.org/abs/1807.03860
+    coauthors: Peter C. Casey and David Yokum
+    publishedat: MUD3 @ SIGKDD'18
+    description: We attempt to find rats in the District of Columbia using machine learning and subject matter expertise from urban rodentology. We do well at predicting 311 calls, but much less well at extrapolation. We provide a framework for field studies for machine learning models.
+  - title: Using Machine Learning to Assess the Risk of and Prevent Water Main Breaks
+    link: https://arxiv.org/abs/1805.03597
+    coauthors: Avishek Kumar, Ali Rizvi, Benjamin Brooks, R. Ali Vanderveld, Chad Kenney, Sam Edelstein, Adria Finch, Andrew Maxwell, Joe Zuckerbraun, Rayid Ghani
+    publishedat: SIGKDD'18
+    description: We build a model to predict which water mains will break in the coming year in Syracuse, NY. We perform quite well, and the model is being used to guide proactive water main repair.
+  - title: "Estimating student proficiency: Deep is not the panacea"
+    link: https://pdfs.semanticscholar.org/aca7/71c587933bdd27e1cdb290b855ba9461f74a.pdf
+    coauthors: Xiong, X., Khajah, M., Lindsey, R.V., Zhao, S., Karklin, Y., Van Inwegen, E.G., Han, B., Ekanadham, C., Beck, J.E., Heffernan, N., Mozer, M.C.
+    publishedat: Workshop on Machine Learning in Education @ NIPS'16
+    description: A summary of three distinct critiques of Deep Knowledge Tracing as a method of estimating student proficiency.
+  - title: "Back to the basics: Bayesian extensions of IRT outperform neural networks for proficiency estimation"
+    link: https://arxiv.org/abs/1604.02336
+    coauthors: Yan Karklin, Bojian Han, and Chaitu Ekanadham
+    publishedat: EDM'16
+    description: We show that the original Deep Knowledge Tracing paper is fundamentally flawed and that, after correcting its errors, that DKT is outperformed by a simple hierarchical model on multiple data sets.
+  - title: Combinatorics on Partial Word Correlations
+    link: https://www.sciencedirect.com/science/article/pii/S0097316510000518
+    coauthors: Francine Blanchet-Sadri, Justin Fowler, Joshua D. Gafni
+    publishedat: J. Combin. Theory Series A, Vol 117 Issue 6 (2010)
+  - title: Correlations of Partial Words
+    coauthors: Francine Blanchet-Sadri, Joshua D. Gafni
+    publishedat: STACS'07

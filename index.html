@@ -23,12 +23,19 @@
       <p align="center">
         <img src="./photo.png">
       </p>
-      <h2>Papers</h2>
-      <p>Here are my papers!</p>
-      <ul>
-        <li><strong>JMP</strong> <em>The number of Quartic D4 fields ordered by conductor</em>. (With S.A. Altug, A. Shankar, and I. Varma.) <a href="./d4.pdf">link</a>.</li>
-        <li><em>Another awesome paper</em>. (With D, E, F.) <a href="https://link.com">link</a>.</li>
-      </ul>
+      <div class="container">
+        <section>
+          <h2>Papers</h2>
+          <ul>
+          {% for paper in site.data.papers.papers %}
+            <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+                {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+                {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+                {% if paper.description %} {{ paper.description }} {% endif %}</li>
+          {% endfor %}
+          </ul>
+        </section>
+      </div>
       <h2>Some other activity</h2>
       <p>I do other things!</p>
       <ul>
