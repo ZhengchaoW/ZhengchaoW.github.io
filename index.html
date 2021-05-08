@@ -24,15 +24,7 @@
         <img src="./photo.png">
       </p>
 
-      <h2>Papers</h2>
-      <ul>
-      {% for paper in site.data.papers.papers %}
-        <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
-            {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
-            {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif
-            {% if paper.description %} {{ paper.description }} {% endif %}</li>
-            {% endfor %}
-      </ul>
+      
 
       <h2>Some other activity</h2>
       <p>I do other things!</p>
