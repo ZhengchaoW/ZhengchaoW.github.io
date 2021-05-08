@@ -42,7 +42,7 @@ papers:
     coauthors: Francine Blanchet-Sadri, Joshua D. Gafni
     publishedat: STACS'07
 
-recent:
+whitepapers:
   - title: A Report on Felony Crime in the District of Columbia in 2016
     link: https://github.com/thelabdc/NEAR-Act-public
     publishedas: Office of the Deputy Mayor for Public Safety and Justice of the District of Columbia
