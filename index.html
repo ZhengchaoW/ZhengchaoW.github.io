@@ -1,33 +1,27 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>MY NAME</title>
-    <link rel="stylesheet" href="github-markdown.css">
-    <style>
-      body {
-        box-sizing: border-box;
-        min-width: 200px;
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 45px;
-      }
-    </style>
-  </head>
-  <body>
-    <article class="markdown-body">
-      <p align="center">
-        <h1>Zhengchao Wan</h1>
-      </p>
-      <p align="center">
-        <img src="./photo.png">
-      </p>
-      <h2>Some other activity</h2>
-      <p>I do other things!</p>
-      <ul>
-        <li><em>Op-Ed in some newspaper</em>. <a href="https://nyt.com">link</a>.</li>
-      </ul>
-    </article>
-  </body>
-</html>
+---
+layout: default
+active: home
+---
+
+<div class="container">
+  <div class="container title-image">
+    <figure class="figure">
+      <img class="figure-img img-fluid rounded" src="images/me.jpg" alt="A picture of me">
+    </figure>
+  </div>
+  <section>
+    <p>Welcome to my personal website. Here you'll find my <a href="cv.pdf">CV</a>. Feel free to contact me at wan.252[at]osu.edu.</p>
+  </section>
+  <hr>
+  <section>
+    <h2>Check out my recent papers!</h2>
+    <ul>
+    {% for paper in site.data.papers.recent %}
+      <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+          {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+          {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+          {% if paper.description %} {{ paper.description }} {% endif %}</li>
+    {% endfor %}
+    </ul>
+  </section>
+</div>
