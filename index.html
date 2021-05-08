@@ -4,25 +4,39 @@ active: home
 ---
 
 <div class="container">
-  <div class="container title-image">
-    <figure class="figure">
-      <img class="figure-img img-fluid rounded" src="images/me.jpg" alt="A picture of me" style="width:128px">
-    </figure>
-  </div>
+  <table width="100%">
+      <tbody>
+          <tr>
+              <td>
+                  <section>
+                    <p><h2>About me</h2>
+                      Welcome to my personal website. I am currently a 5th year PhD Candidate in Mathematics at the Ohio State University. My advisor is <a href="http://facundo-memoli.org">Facundo Mémoli</a>. I earned my Bachelor's degree in Mathematics at Peking University in 2016.
+                    <br>
+                    <br>
+                    Here is my current <a href="cv.pdf">CV</a>.</p>
+                  
+                  </section>
+              </td>
+              <td style="text-align:right;">
+                  <div class="container title-image">
+                    <figure class="figure">
+                      <img class="figure-img img-fluid rounded" src="images/me.jpg" alt="A picture of me" style="width:400px">
+                    </figure>
+                  </div>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  
  
 
-  <section>
-    <h2>About me</h2>
-    <p>Welcome to my personal website. I am currently a 5th year PhD Candidate in Mathematics at the Ohio State University. My advisor is <a href="http://facundo-memoli.org">Facundo Mémoli</a>. I earned my Bachelor's degree in Mathematics at Peking University in 2016.
-    <br>
-    Here is my current <a href="cv.pdf">CV</a>.</p>
-    <hr>
-    <h3>Research Interests</h3>
-    <p>I'm interested in metric geometry, optimal transport and their practical applications.
-    </p>
-  </section>
+  
   <hr>
   <section>
+      <h3>Research Interests</h3>
+      <p>I'm interested in metric geometry, optimal transport and their practical applications.
+      </p>
+      <hr>
     <h3>Check out my recent papers!</h3>
     <ul>
     {% for paper in site.data.papers.recent %}
