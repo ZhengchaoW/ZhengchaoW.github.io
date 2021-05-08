@@ -6,19 +6,38 @@ active: home
 <div class="container">
   <div class="container title-image">
     <figure class="figure">
-      <img class="figure-img img-fluid rounded" src="images/me.jpg" alt="A picture of me on a mountain">
+      <img class="figure-img img-fluid rounded" src="images/me.jpg" alt="A picture of me">
     </figure>
   </div>
+ 
+
   <section>
-    <p>Welcome to my personal website. Here you'll find links to my <a
-       href="papers.html">papers</a> and my <a href="cv.pdf">CV</a>. Feel free to contact me at [first initial][middle
-       initial][last name][at][popular email service operated by Google].</p>
+    <h2>About me</h2>
+    <p>Welcome to my personal website. I am currently a 5th year PhD Candidate in Mathematics at the Ohio State University. My advisor is <a href="http://facundo-memoli.org">Facundo Mémoli</a>. I earned my Bachelor's degree in Mathematics at Peking University in 2016. Here is my current <a href="cv.pdf">CV</a> and my <a href="https://scholar.google.com/citations?hl=en&user=kmTKYtoAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar Page</a></p>
+    <hr>
+    <h3>Research Interests</h3>
+    <p>I'm interested in metric geometry, optimal transport and their practical applications.
+    </p>
   </section>
   <hr>
   <section>
-    <h2>Some fun links</h2>
-    <p><a href="http://thepolicylab.brown.edu">The Policy Lab</a> at Brown University, where I currently work.</p>
-    <p><a href="https://kevinhayeswilson.com/redraw">Redraw the States</a>. A fun project where I let people redraw the US states to see the sensitivity of the Electoral College.</p>
-    <p><a href="https://www.youtube.com/watch?v=RF9kx8PPt_s">So you want to build an academic website?</a> Instructions for building an academic website that won't get blocked by big corporate firewalls. If you prefer a PDF version, see <a href="https://kevinhayeswilson.com/website.pdf">here</a>.
+    <h3>Check out my recent papers!</h3>
+    <ul>
+    {% for paper in site.data.papers.recent %}
+      <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+          {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+          {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+          {% if paper.description %} {{ paper.description }} {% endif %}</li></p>
+      
+    {% endfor %}
+    </ul>
   </section>
+  <hr>
+  <section>
+      <h3>Contacts</h3>
+      <p><b>Email: </b> wan.252[at]osu.edu.</p>
+      
+      <p><b>Address: </b> Room 605, Mathematics Tower, 231 W 18th Ave, Columbus, OH</p>
+  </section>
+  <hr>
 </div>

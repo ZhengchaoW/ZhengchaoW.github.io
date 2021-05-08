@@ -1,25 +1,3 @@
-# Kevin Wilson's Website
+# Zhengchao Wan's Website
 
-This is a simple academic website template.
-
-## Setup and Deployment
-
-This is a jekyll website. You will need ruby in order to build it.
-To do so on a Mac using homebrew, run
-
-```bash
-$ brew install ruby
-```
-
-Once that's installed, you will need to install the dependencies of this
-particular project. To do so, run
-
-```bash
-$ bundle install
-```
-
-To see the website locally, run
-
-```bash
-$ bundle exec jekyll serve
-```
+This is a website modified from the [academic website template](https://github.com/khwilson/kevinhayeswilson.com) by Kevin H. Wilson.
