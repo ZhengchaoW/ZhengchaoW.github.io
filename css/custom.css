@@ -168,7 +168,6 @@ h2.huge {
   justify-content: center;
   max-width: 100%;
   margin: auto;
-  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 574px) {
