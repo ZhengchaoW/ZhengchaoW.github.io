@@ -15,7 +15,7 @@ opengraph:
       <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
           {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
           {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-          {% if paper.code %} <br> Code: <a href="{{ paper.code }}">{{ paper.code }}</a> {% endif %}
+          {% if paper.code %}  <a href="{{ paper.code }}"> Code available </a> {% endif %}
           {% if paper.description %} {{ paper.description }} {% endif %}</li>
       </p>
     {% endfor %}
