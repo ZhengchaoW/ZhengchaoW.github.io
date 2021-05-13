@@ -25,6 +25,7 @@ papers:
     link: https://arxiv.org/pdf/1912.00564
     coauthors: Facundo Mémoli, Zane Smith
     publishedat: arXiv preprint arXiv:1912.00564 (2019)
+    code: https://github.com/ndag/ultrametrics
   - title: "The Wasserstein transform"
     link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
     coauthors: Facundo Mémoli, Zane Smith
