@@ -7,10 +7,12 @@ papers:
     link: https://arxiv.org/pdf/2101.05756
     coauthors: Facundo Mémoli, Axel Munk, Christoph Weitcamp
     publishedat: arXiv preprint arXiv:2101.05756 (2021)
+    code: https://github.com/ndag/uGW
   - title: "Persistent Laplacians: properties, algorithms and implications"
     link: https://arxiv.org/pdf/2012.02808
     coauthors: Facundo Mémoli, Yusu Wang
     publishedat: arXiv preprint arXiv:2012.02808 (2020)
+    code: https://github.com/ndag/Persistent-Laplacian
   - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
     link: https://arxiv.org/pdf/2007.08105
     coauthors:
