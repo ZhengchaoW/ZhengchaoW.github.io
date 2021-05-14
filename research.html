@@ -10,16 +10,32 @@ opengraph:
       <p> Here is my <a href="https://scholar.google.com/citations?hl=en&user=kmTKYtoAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar Page</a>.</p>
       
     <h2>Research</h2>
-    <ul>
-    {% for paper in site.data.papers.papers %}
-      <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
-          {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
-          {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-          {% if paper.code %}  <a href="{{ paper.code }}"> Code available </a> {% endif %}
-          {% if paper.description %} {{ paper.description }} {% endif %}</li>
-      </p>
-    {% endfor %}
-    </ul>
+    <table width="100%">
+        {% for paper in site.data.papers.papers %}
+            <tr>
+                <td>
+                    {% if paper.image %}  <img src={{paper.image}} width="150" height="150" alt=""> {% endif %}
+                </td>
+                <td>
+                    {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+                    {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+                    {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+                    {% if paper.code %} <br> <a href="{{ paper.code }}"> Code available </a> {% endif %}
+                    {% if paper.description %} {{ paper.description }} {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+<!--    <ul>-->
+<!--    {% for paper in site.data.papers.papers %}-->
+<!--      <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}-->
+<!--          {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}-->
+<!--          {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}-->
+<!--          {% if paper.code %}  <a href="{{ paper.code }}"> Code available </a> {% endif %}-->
+<!--          {% if paper.description %} {{ paper.description }} {% endif %}</li>-->
+<!--      </p>-->
+<!--    {% endfor %}-->
+<!--    </ul>-->
   </section>
 <!--  <section>
     <h2>Whitepapers</h2>

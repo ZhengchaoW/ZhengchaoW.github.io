@@ -3,30 +3,37 @@ papers:
     link: https://arxiv.org/pdf/2105.05369
     coauthors: Facundo Mémoli
     publishedat: arXiv preprint arXiv:2105.05369 (2021)
+    image: "images/geodesic.jpg"
   - title: "The ultrametric Gromov-Wasserstein distance"
     link: https://arxiv.org/pdf/2101.05756
     coauthors: Facundo Mémoli, Axel Munk, Christoph Weitcamp
     publishedat: arXiv preprint arXiv:2101.05756 (2021)
     code: https://github.com/ndag/uGW
+    image: "images/ugw.jpg"
   - title: "Persistent Laplacians: properties, algorithms and implications"
     link: https://arxiv.org/pdf/2012.02808
     coauthors: Facundo Mémoli, Yusu Wang
     publishedat: arXiv preprint arXiv:2012.02808 (2020)
     code: https://github.com/ndag/Persistent-Laplacian
+    image: "images/persistLap.jpg"
   - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
     link: https://arxiv.org/pdf/2007.08105
     coauthors:
     publishedat: arXiv preprint arXiv:2007.08105 (2020)
+    image: "images/Urysohn.jpg"
   - title: "The Gaussian transform"
     link: https://arxiv.org/pdf/2006.11698 (2020)
     coauthors: Kun Jin, Facundo Mémoli
     publishedat: arXiv preprint arXiv:2006.11698 (2020)
+    image: "images/GT.jpg"
   - title: "Gromov-Hausdorff distances on p-metric spaces and ultrametric spaces"
     link: https://arxiv.org/pdf/1912.00564
     coauthors: Facundo Mémoli, Zane Smith
     publishedat: arXiv preprint arXiv:1912.00564 (2019)
     code: https://github.com/ndag/ultrametrics
+    image: "images/dGHp.jpg"
   - title: "The Wasserstein transform"
     link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
     coauthors: Facundo Mémoli, Zane Smith
     publishedat: International Conference on Machine Learning (2019)
+    image: "images/WT.jpg"
