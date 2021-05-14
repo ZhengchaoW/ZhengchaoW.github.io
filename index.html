@@ -39,12 +39,14 @@ active: home
       <hr>
     <h3>Check out my recent papers!</h3>
     <ul>
-    {% for paper in site.data.papers.recent %}
-      <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
-          {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
-          {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-          {% if paper.description %} {{ paper.description }} {% endif %}</li></p>
-      
+    {% for paper in site.data.papers.papers %}
+        {% assign imgIndex = {{forloop.index}} %}
+        {%if imgIndex<=3 %}
+          <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+              {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+              {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+              {% if paper.description %} {{ paper.description }} {% endif %}</li></p>
+        {% endif %}
     {% endfor %}
     </ul>
   </section>
