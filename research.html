@@ -1,15 +1,15 @@
 ---
 layout: base
-active: papers
+active: research
 opengraph:
-  title: Zhengchao Wan's Papers
+  title: Zhengchao Wan's Research
 ---
 
 <div class="container">
   <section>
       <p> Here is my <a href="https://scholar.google.com/citations?hl=en&user=kmTKYtoAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar Page</a>.</p>
       
-    <h2>Papers</h2>
+    <h2>Research</h2>
     <ul>
     {% for paper in site.data.papers.papers %}
       <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
