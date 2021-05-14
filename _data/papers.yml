@@ -30,17 +30,3 @@ papers:
     link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
     coauthors: Facundo Mémoli, Zane Smith
     publishedat: International Conference on Machine Learning (2019)
-
-recent:
-  - title: "Characterization of Gromov-type geodesics"
-    link: https://arxiv.org/pdf/2105.05369
-    coauthors: Facundo Mémoli
-    publishedat: arXiv preprint arXiv:2105.05369 (2021)
-  - title: "The ultrametric Gromov-Wasserstein distance"
-    link: https://arxiv.org/pdf/2101.05756
-    coauthors: Facundo Mémoli, Axel Munk, Christoph Weitcamp
-    publishedat: arXiv preprint arXiv:2101.05756 (2021)
-  - title: "Persistent Laplacians: properties, algorithms and implications"
-    link: https://arxiv.org/pdf/2012.02808
-    coauthors: Facundo Mémoli, Yusu Wang
-    publishedat: arXiv preprint arXiv:2012.02808 (2020)
