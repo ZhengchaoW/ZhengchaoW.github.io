@@ -16,7 +16,7 @@ opengraph:
         {% for paper in site.data.papers.papers %}
             <tr>
                 <td>
-                    {% if paper.image %}  <img src={{paper.image}} width="150" height="150" alt=""> {% endif %}
+                    {% if paper.image %}  <img src={{paper.image}} width="150" height="150" alt="" style="margin-right:20px"> {% endif %}
                 </td>
                 <td>
                     {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
