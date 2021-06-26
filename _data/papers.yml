@@ -17,9 +17,9 @@ papers:
     code: https://github.com/ndag/Persistent-Laplacian
     image: "images/persistLap.jpg"
   - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
-    link: https://arxiv.org/pdf/2007.08105
+    link: https://www.sciencedirect.com/science/article/pii/S0166864121001735
     coauthors:
-    publishedat: arXiv preprint arXiv:2007.08105 (2020)
+    publishedat: Topology and its Applications, 2021, 107759, ISSN 0166-8641, https://doi.org/10.1016/j.topol.2021.107759.
     image: "images/Urysohn.jpg"
   - title: "The Gaussian transform"
     link: https://arxiv.org/pdf/2006.11698 (2020)
