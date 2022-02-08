@@ -1,4 +1,9 @@
 papers:
+  - title: "Weisfeiler-Lehman meets Gromov-Wasserstein"
+    link: https://arxiv.org/pdf/2202.02495.pdf
+    coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
+    publishedat: arXiv preprint arXiv:2202.02495 (2022)
+    image: "images/dwl.png"
   - title: "Some results about the Tight Span of spheres"
     link: https://arxiv.org/pdf/2112.12646.pdf
     coauthors: Sunhyuk Lim, Facundo Mémoli, Qingsong Wang, Ling Zhou
