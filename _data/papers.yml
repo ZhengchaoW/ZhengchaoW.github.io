@@ -2,7 +2,7 @@ papers:
   - title: "Weisfeiler-Lehman meets Gromov-Wasserstein"
     link: https://arxiv.org/pdf/2202.02495.pdf
     coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
-    publishedat: arXiv preprint arXiv:2202.02495 (2022)
+    publishedat: International Conference on Machine Learning (ICML 2022)
     image: "images/dwl.png"
   - title: "Some results about the Tight Span of spheres"
     link: https://arxiv.org/pdf/2112.12646.pdf
@@ -50,5 +50,5 @@ papers:
   - title: "The Wasserstein transform"
     link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
     coauthors: Facundo Mémoli, Zane Smith
-    publishedat: International Conference on Machine Learning (2019)
+    publishedat: International Conference on Machine Learning (ICML 2019)
     image: "images/WT.jpg"
