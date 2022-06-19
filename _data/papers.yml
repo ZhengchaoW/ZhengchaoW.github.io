@@ -39,7 +39,7 @@ papers:
   - title: "Persistent Laplacians: properties, algorithms and implications"
     link: https://arxiv.org/pdf/2012.02808
     coauthors: Facundo Mémoli, Yusu Wang
-    publishedat: To appear in SIAM journal on Mathematics of Data Science
+    publishedat: To appear in SIAM Journal on Mathematics of Data Science
     code: https://github.com/ndag/Persistent-Laplacian
     image: "images/persistLap.jpg"
   - title: "The Gaussian transform"
