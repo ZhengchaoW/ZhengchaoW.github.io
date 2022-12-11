@@ -1,4 +1,9 @@
 papers:
+  - title: "The Numerical Stability of Hyperbolic Representation Learning"
+    link: https://arxiv.org/abs/2211.00181
+    coauthors: Gal Mishne, Yusu Wang, Sheng Yang
+    publishedat: arXiv preprint arXiv:2211.00181 (2022)
+    image: "images/hyperbolic.png"
   - title: "Weisfeiler-Lehman meets Gromov-Wasserstein"
     link: https://arxiv.org/pdf/2202.02495.pdf
     coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
