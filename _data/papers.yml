@@ -1,4 +1,14 @@
 papers:
+  - title: "Understanding Oversquashing in GNNs through the Lens of Effective Resistance"
+    link: https://arxiv.org/abs/2302.06835
+    coauthors: Mitchell Black, Amir Nayyeri, Yusu Wang
+    publishedat: arXiv preprint	arXiv:2302.06835 (2023)
+    image: "images/oversquashing.png"
+  - title: "A generalization of the persistent Laplacian to simplicial maps"
+    link: https://arxiv.org/abs/2302.03771
+    coauthors: Aziz Burak Gülen, Facundo Mémoli, Yusu Wang
+    publishedat: To appear in 39th International Symposium on Computational Geometry (SoCG 2023). arXiv preprint arXiv:2302.03771
+    image: "images/pL_simplicial.png"
   - title: "The Numerical Stability of Hyperbolic Representation Learning"
     link: https://arxiv.org/abs/2211.00181
     coauthors: Gal Mishne, Yusu Wang, Sheng Yang
@@ -22,7 +32,7 @@ papers:
   - title: "The Gromov-Hausdorff distance between ultrametric spaces: its structure and computation"
     link: https://arxiv.org/pdf/2110.03136.pdf
     coauthors: Facundo Mémoli, Zane Smith
-    publishedat: arXiv preprint arXiv:2110.03136 (2021)
+    publishedat: To appear in Journal of Computational Geometry. arXiv preprint arXiv:2110.03136 (2021)
     code: https://github.com/ndag/ultrametrics
     image: "images/dGHp.jpg"
   - title: "Characterization of Gromov-type geodesics"
