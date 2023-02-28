@@ -15,16 +15,11 @@ opengraph:
     <table width="100%">
         {% for paper in site.data.papers.papers %}
             <tr>
-                <td>
-                    {% if paper.image %}  <img src={{paper.image}} width="150" height="150" alt="" style="margin-right:20px"> {% endif %}
-                </td>
-                <td>
                     {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
                     {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
                     {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
                     {% if paper.code %} <br> <a href="{{ paper.code }}"> Code available </a> {% endif %}
                     {% if paper.description %} {{ paper.description }} {% endif %}
-                </td>
             </tr>
         {% endfor %}
     </table>
