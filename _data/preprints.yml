@@ -1,0 +1,31 @@
+papers:
+  - title: "Distances for Markov Chains, and Their Differentiation"
+    link: https://arxiv.org/abs/2302.08621
+    coauthors: Tristan Brugère, Yusu Wang
+    publishedat: arXiv preprint	arXiv:2302.08621 (2023)
+  - title: "Understanding Oversquashing in GNNs through the Lens of Effective Resistance"
+    link: https://arxiv.org/abs/2302.06835
+    coauthors: Mitchell Black, Amir Nayyeri, Yusu Wang
+    publishedat: arXiv preprint	arXiv:2302.06835 (2023)
+    image: "images/oversquashing.png"
+  - title: "The Numerical Stability of Hyperbolic Representation Learning"
+    link: https://arxiv.org/abs/2211.00181
+    coauthors: Gal Mishne, Yusu Wang, Sheng Yang
+    publishedat: arXiv preprint arXiv:2211.00181 (2022)
+  - title: "Some results about the Tight Span of spheres"
+    link: https://arxiv.org/pdf/2112.12646.pdf
+    coauthors: Sunhyuk Lim, Facundo Mémoli, Qingsong Wang, Ling Zhou
+    publishedat: arXiv preprint arXiv:2112.12646 (2021)
+  - title: "Characterization of Gromov-type geodesics"
+    link: https://arxiv.org/pdf/2105.05369
+    coauthors: Facundo Mémoli
+    publishedat: arXiv preprint arXiv:2105.05369 (2021)
+  - title: "The ultrametric Gromov-Wasserstein distance"
+    link: https://arxiv.org/pdf/2101.05756
+    coauthors: Facundo Mémoli, Axel Munk, Christoph Weitcamp
+    publishedat: arXiv preprint arXiv:2101.05756 (2021)
+    code: https://github.com/ndag/uGW
+  - title: "The Gaussian transform"
+    link: https://arxiv.org/pdf/2006.11698 (2020)
+    coauthors: Kun Jin, Facundo Mémoli
+    publishedat: arXiv preprint arXiv:2006.11698 (2020)
