@@ -12,8 +12,10 @@ opengraph:
     <br>
     <p> Here is my <a href="https://scholar.google.com/citations?hl=en&user=kmTKYtoAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar Page</a>.</p>
     <hr>
+    <h3> Preprints </h3>
+    <br>
     <table width="100%">
-        {% for paper in site.data.papers.papers %}
+        {% for paper in site.data.preprints.papers %}
             <tr>
                     {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
                     {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
@@ -23,6 +25,20 @@ opengraph:
             </tr>
         {% endfor %}
     </table>
+    <hr>
+    <h3> Journal/Conference papers </h3>
+    <br>
+    <table width="100%">
+      {% for paper in site.data.papers.papers %}
+          <tr>
+                  {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+                  {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+                  {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+                  {% if paper.code %} <br> <a href="{{ paper.code }}"> Code available </a> {% endif %}
+                  {% if paper.description %} {{ paper.description }} {% endif %}
+          </tr>
+      {% endfor %}
+  </table>
 <!--    <ul>-->
 <!--    {% for paper in site.data.papers.papers %}-->
 <!--      <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}-->
