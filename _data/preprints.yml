@@ -3,6 +3,10 @@ papers:
     link: https://arxiv.org/abs/2302.08621
     coauthors: Tristan Brugère, Yusu Wang
     publishedat: arXiv preprint	arXiv:2302.08621 (2023)
+  - title: "The Weisfeiler-Lehman Distance: Reinterpretation and Connection with GNNs"
+    link: https://arxiv.org/abs/2302.00713
+    coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
+    publishedat: arXiv preprint	arXiv:2302.00713 (2023)
   - title: "Understanding Oversquashing in GNNs through the Lens of Effective Resistance"
     link: https://arxiv.org/abs/2302.06835
     coauthors: Mitchell Black, Amir Nayyeri, Yusu Wang
