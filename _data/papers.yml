@@ -34,3 +34,4 @@ papers:
     link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
     coauthors: Facundo Mémoli, Zane Smith
     publishedat: International Conference on Machine Learning (ICML 2019)
+    description: We propose the method called the Wasserstein transform for enhancing and denoising datasets defined on general metric spaces.

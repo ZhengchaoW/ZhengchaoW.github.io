@@ -34,6 +34,7 @@ opengraph:
                   {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
                   {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
                   {% if paper.code %} <a href="{{ paper.code }}"> Code available </a> {% endif %}
+                  <br>
                   {% if paper.description %} {{ paper.description }} {% endif %}
           </tr>
           <br>
