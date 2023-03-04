@@ -48,7 +48,7 @@ active: home
           <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
               {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
               {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-              </li></p>
+              {% if paper.description %}<br> {{ paper.description }} {% endif %}</li></p>
         {% endif %}
     {% endfor %}
     </ul>
