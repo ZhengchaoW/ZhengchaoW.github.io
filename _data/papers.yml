@@ -1,4 +1,9 @@
 papers:
+  - title: "Characterization of Gromov-type geodesics"
+    link: https://arxiv.org/pdf/2105.05369
+    coauthors: Facundo Mémoli
+    publishedat: To appear in Differential Geometry and its Applications. arXiv preprint arXiv:2105.05369 (2023)
+    description: Novel characterizations of geodesics in the Gromov-Hausdorff space and in the Gromov-Wasserstein space
   - title: "A generalization of the persistent Laplacian to simplicial maps"
     link: https://arxiv.org/abs/2302.03771
     coauthors: Aziz Burak Gülen, Facundo Mémoli, Yusu Wang
