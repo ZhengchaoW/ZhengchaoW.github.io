@@ -40,7 +40,7 @@ active: home
       <p>My primary research interests lie in the development of novel mathematical tools and frameworks for understanding and analyzing complex data structures, with a focus on geometric and topological data analysis. My work spans across multiple domains, including probability theory, geometry, graph theory, and machine learning, with the goal of advancing our ability to analyze complex data.
       </p>
       <hr>
-    <h3>Check out my recent papers! See <a href="research.html">here</a> for a complete list of publications</h3>
+    <h3>Check out my recent papers!</h3>
     <ul>
     {% for paper in site.data.papers.papers %}
         {% assign imgIndex = {{forloop.index}} %}
@@ -52,6 +52,7 @@ active: home
         {% endif %}
     {% endfor %}
     </ul>
+    <h3> See <a href="research.html">here</a> for a complete list of publications. </h3>
   </section>
   <hr>
   <section>
