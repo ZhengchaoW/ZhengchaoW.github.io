@@ -20,11 +20,6 @@ papers:
     link: https://arxiv.org/pdf/2112.12646.pdf
     coauthors: Sunhyuk Lim, Facundo Mémoli, Qingsong Wang, Ling Zhou
     publishedat: arXiv preprint arXiv:2112.12646 (2021)
-  - title: "The ultrametric Gromov-Wasserstein distance"
-    link: https://arxiv.org/pdf/2101.05756
-    coauthors: Facundo Mémoli, Axel Munk, Christoph Weitkamp
-    publishedat: arXiv preprint arXiv:2101.05756 (2021)
-    code: https://github.com/ndag/uGW
   - title: "The Gaussian transform"
     link: https://arxiv.org/pdf/2006.11698 (2020)
     coauthors: Kun Jin, Facundo Mémoli

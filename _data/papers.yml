@@ -1,4 +1,10 @@
 papers:
+  - title: "The ultrametric Gromov-Wasserstein distance"
+    link: https://arxiv.org/pdf/2101.05756
+    coauthors: Facundo Mémoli, Axel Munk, Christoph Weitkamp
+    publishedat: To appear in Discrete & Computational Geometry. arXiv preprint arXiv:2101.05756 (2023)
+    code: https://github.com/ndag/uGW
+    description: We identify and study ultrametric versions of both Sturm’s Gromov-Wasserstein distance and the Gromov-Wasserstein distance.
   - title: "Characterization of Gromov-type geodesics"
     link: https://arxiv.org/pdf/2105.05369
     coauthors: Facundo Mémoli
