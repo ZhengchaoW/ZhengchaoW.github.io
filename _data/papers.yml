@@ -6,7 +6,7 @@ papers:
     code: https://github.com/ndag/uGW
     description: We identify and study ultrametric versions of both Sturm’s Gromov-Wasserstein distance and the Gromov-Wasserstein distance.
   - title: "Characterization of Gromov-type geodesics"
-    link: https://arxiv.org/pdf/2105.05369
+    link: https://doi.org/10.1016/j.difgeo.2023.102006
     coauthors: Facundo Mémoli
     publishedat: Differential Geometry and its Applications, 88:102006 (2023) 
     description: Novel characterizations of geodesics in the Gromov-Hausdorff space and in the Gromov-Wasserstein space
@@ -16,10 +16,11 @@ papers:
     publishedat: To appear in 39th International Symposium on Computational Geometry (SoCG 2023). arXiv preprint arXiv:2302.03771
     description: A novel generalization of the framework of the persistent Laplacian to the setting of filtrations of simplicial complexes related via simplicial maps
   - title: "Weisfeiler-Lehman meets Gromov-Wasserstein"
-    link: https://arxiv.org/pdf/2202.02495.pdf
+    link: https://proceedings.mlr.press/v162/chen22o/chen22o.pdf
     coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
     publishedat: International Conference on Machine Learning (ICML 2022)
     description: We introduce a distance between Markov chains based on the classic Weisfeiler-Lehman graph isomorphism test. This distance can be used to analyze GNNs.
+    talk: https://slideslive.com/38983802/weisfeilerlehman-meets-gromovwasserstein?ref=speaker-18227
   - title: "On p-metric spaces and the p-Gromov-Hausdorff distance"
     link: https://link.springer.com/article/10.1134/S2070046622030013
     coauthors: Facundo Mémoli
@@ -31,6 +32,7 @@ papers:
     publishedat: To appear in Journal of Computational Geometry. arXiv preprint arXiv:2110.03136 (2021)
     code: https://github.com/ndag/ultrametrics
     description: We devised an efficient algorithm to compute the ultrametric GH distance and a FPT algorithm to compute the GH distance between ultrametric spaces.
+    talk: https://youtu.be/DAHczqMSnLg
   - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
     link: https://www.sciencedirect.com/science/article/pii/S0166864121001735
     coauthors:
