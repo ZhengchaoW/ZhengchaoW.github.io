@@ -10,25 +10,26 @@ papers:
     coauthors: Facundo Mémoli
     publishedat: Differential Geometry and its Applications, 88:102006 (2023) 
     description: Novel characterizations of geodesics in the Gromov-Hausdorff space and in the Gromov-Wasserstein space
+  - title: "The Gromov-Hausdorff distance between ultrametric spaces: its structure and computation"
+    link: https://arxiv.org/pdf/2110.03136.pdf
+    coauthors: Facundo Mémoli, Zane Smith
+    publishedat: To appear in Journal of Computational Geometry. arXiv preprint arXiv:2110.03136 (2023)
+    code: https://github.com/ndag/ultrametrics
+    description: We devised an efficient algorithm to compute the ultrametric GH distance and a FPT algorithm to compute the GH distance between ultrametric spaces.
+    talk: https://youtu.be/DAHczqMSnLg
   - title: "On p-metric spaces and the p-Gromov-Hausdorff distance"
     link: https://link.springer.com/article/10.1134/S2070046622030013
     coauthors: Facundo Mémoli
     publishedat: p-Adic Numbers, Ultrametric Analysis and Applications, 14, pages 173–223 (2022)
     description: A thorough theoretical study of a one parameter family of variants of the Gromov-Hausdorff distance.
-  - title: "The Gromov-Hausdorff distance between ultrametric spaces: its structure and computation"
-    link: https://arxiv.org/pdf/2110.03136.pdf
-    coauthors: Facundo Mémoli, Zane Smith
-    publishedat: To appear in Journal of Computational Geometry. arXiv preprint arXiv:2110.03136 (2021)
-    code: https://github.com/ndag/ultrametrics
-    description: We devised an efficient algorithm to compute the ultrametric GH distance and a FPT algorithm to compute the GH distance between ultrametric spaces.
-    talk: https://youtu.be/DAHczqMSnLg
-  - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
-    link: https://www.sciencedirect.com/science/article/pii/S0166864121001735
-    coauthors:
-    publishedat: Topology and its Applications, 300:107759, 2021
   - title: "Persistent Laplacians: properties, algorithms and implications"
     link: https://epubs.siam.org/doi/abs/10.1137/21M1435471
     coauthors: Facundo Mémoli, Yusu Wang
     publishedat: SIAM Journal on Mathematics of Data Science, 4(2):858–884, 2022
     code: https://github.com/ndag/Persistent-Laplacian
     description: We provide a thorough theoretical and algorithmic study of the persistent Laplacian and unveil its link with TDA, spectral graph theory and network circuit theory.
+  - title: "A novel construction of Urysohn universal ultrametric space via the Gromov-Hausdorff ultrametric"
+    link: https://www.sciencedirect.com/science/article/pii/S0166864121001735
+    coauthors:
+    publishedat: Topology and its Applications, 300:107759, 2021
+  
