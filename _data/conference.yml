@@ -1,0 +1,31 @@
+papers:
+  - title: "The Persistent Laplacian for Data Science: Evaluating Higher-Order Persistent Spectral Representations of Data"
+    coauthors: Thomas Davies, Ruben Sanchez-Garcia
+    publishedat: To appear in International Conference on Machine Learning (ICML 2023)
+    description: We introduce the persistent Laplacian as a feature vector that encodes persistent homology and additional geometric information, and demonstrate its usefulness in data analysis.
+  - title: "Understanding Oversquashing in GNNs through the Lens of Effective Resistance"
+    link: https://arxiv.org/abs/2302.06835
+    coauthors: Mitchell Black, Amir Nayyeri, Yusu Wang
+    publishedat: To appear in International Conference on Machine Learning (ICML 2023). arXiv preprint	arXiv:2302.06835 (2023)
+    description: We propose to use effective resistance as a way to quantify oversquashing in graph neural networks and study how this can be used to modify input graphs to alleviate the oversquashing problem.
+  - title: "The Numerical Stability of Hyperbolic Representation Learning"
+    link: https://arxiv.org/abs/2211.00181
+    coauthors: Gal Mishne, Yusu Wang, Sheng Yang
+    publishedat: To appear in International Conference on Machine Learning (ICML 2023). arXiv preprint arXiv:2211.00181 (2022)
+    description: We analyze the limitations of two popular hyperbolic learning models, the Poincaré ball and Lorentz model, and provide insights on how to overcome numerical instability issues.
+  - title: "A generalization of the persistent Laplacian to simplicial maps"
+    link: https://arxiv.org/abs/2302.03771
+    coauthors: Aziz Burak Gülen, Facundo Mémoli, Yusu Wang
+    publishedat: To appear in 39th International Symposium on Computational Geometry (SoCG 2023). arXiv preprint arXiv:2302.03771
+    description: A novel generalization of the framework of the persistent Laplacian to the setting of filtrations of simplicial complexes related via simplicial maps
+  - title: "Weisfeiler-Lehman meets Gromov-Wasserstein"
+    link: https://proceedings.mlr.press/v162/chen22o/chen22o.pdf
+    coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
+    publishedat: International Conference on Machine Learning (ICML 2022)
+    description: We introduce a distance between Markov chains based on the classic Weisfeiler-Lehman graph isomorphism test. This distance can be used to analyze GNNs.
+    talk: https://slideslive.com/38983802/weisfeilerlehman-meets-gromovwasserstein?ref=speaker-18227
+  - title: "The Wasserstein transform"
+    link: http://proceedings.mlr.press/v97/memoli19a/memoli19a.pdf
+    coauthors: Facundo Mémoli, Zane Smith
+    publishedat: International Conference on Machine Learning (ICML 2019)
+    description: We propose the method called the Wasserstein transform for enhancing and denoising datasets defined on general metric spaces.

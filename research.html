@@ -27,9 +27,25 @@ opengraph:
         {% endfor %}
     </table>
     <hr>
-    <h3> Journal/Conference papers </h3>
+    <h3> Journal papers </h3>
     <table width="100%">
       {% for paper in site.data.papers.papers %}
+          <tr><li>
+                  {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+                  {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+                  {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+                  {% if paper.code %} <a href="{{ paper.code }}"> Code </a> {% endif %}
+                  {% if paper.talk %} <a href="{{ paper.talk }}"> Video </a> {% endif %}
+                  <!-- <br>
+                  {% if paper.description %} {{ paper.description }} {% endif %} -->
+                </li>
+          </tr>
+      {% endfor %}
+  </table>
+  <hr>
+  <h3> Conference papers </h3>
+    <table width="100%">
+      {% for paper in site.data.conference.papers %}
           <tr><li>
                   {% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
                   {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}

@@ -44,7 +44,7 @@ active: home
     <ul>
     {% for paper in site.data.papers.papers %}
         {% assign imgIndex = {{forloop.index}} %}
-        {%if imgIndex<=3 %}
+        {%if imgIndex<=1 %}
           <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
               {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
               {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
@@ -52,6 +52,17 @@ active: home
         {% endif %}
     {% endfor %}
     </ul>
+    <ul>
+      {% for paper in site.data.conference.papers %}
+          {% assign imgIndex = {{forloop.index}} %}
+          {%if imgIndex<=2 %}
+            <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
+                {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
+                {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
+                {% if paper.description %}<br> {{ paper.description }} {% endif %}</li></p>
+          {% endif %}
+      {% endfor %}
+      </ul>
     Full publication list is <a href="research.html">here</a>. 
   </section>
   <hr>
