@@ -7,15 +7,6 @@ papers:
     link: https://arxiv.org/abs/2302.00713
     coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
     publishedat: arXiv preprint	arXiv:2302.00713 (2023)
-  - title: "Understanding Oversquashing in GNNs through the Lens of Effective Resistance"
-    link: https://arxiv.org/abs/2302.06835
-    coauthors: Mitchell Black, Amir Nayyeri, Yusu Wang
-    publishedat: arXiv preprint	arXiv:2302.06835 (2023)
-    image: "images/oversquashing.png"
-  - title: "The Numerical Stability of Hyperbolic Representation Learning"
-    link: https://arxiv.org/abs/2211.00181
-    coauthors: Gal Mishne, Yusu Wang, Sheng Yang
-    publishedat: arXiv preprint arXiv:2211.00181 (2022)
   - title: "Some results about the Tight Span of spheres"
     link: https://arxiv.org/pdf/2112.12646.pdf
     coauthors: Sunhyuk Lim, Facundo Mémoli, Qingsong Wang, Ling Zhou
