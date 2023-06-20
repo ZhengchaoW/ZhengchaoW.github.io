@@ -5,6 +5,7 @@ papers:
     publishedat: To appear in ICML workshop: Topology, Algebra, and Geometry in Machine Learning (2023)
     description: We present a novel interpretation of the Weisfeiler-Lehman (WL) distance, using concepts from stochastic processes, and discuss the implications for understanding the Lipschitz property and the universal approximation results for graph neural networks.
   - title: "The Persistent Laplacian for Data Science: Evaluating Higher-Order Persistent Spectral Representations of Data"
+    link: https://openreview.net/pdf?id=UeCasRZMj5
     coauthors: Thomas Davies, Ruben Sanchez-Garcia
     publishedat: To appear in International Conference on Machine Learning (ICML 2023)
     description: We introduce the persistent Laplacian as a feature vector that encodes persistent homology and additional geometric information, and demonstrate its usefulness in data analysis.
