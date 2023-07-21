@@ -1,6 +1,6 @@
 papers:
   - title: "The Weisfeiler-Lehman Distance: Reinterpretation and Connection with GNNs"
-    link: https://arxiv.org/abs/2302.00713
+    link: https://openreview.net/pdf?id=NT9uMRY2Wx
     coauthors: Samantha Chen, Sunhyuk Lim, Facundo Mémoli, Yusu Wang
     publishedat: "To appear in ICML workshop: Topology, Algebra, and Geometry in Machine Learning (2023)"
     description: We present a novel interpretation of the Weisfeiler-Lehman (WL) distance, using concepts from stochastic processes, and discuss the implications for understanding the Lipschitz property and the universal approximation results for graph neural networks.
