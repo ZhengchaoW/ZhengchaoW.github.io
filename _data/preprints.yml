@@ -3,6 +3,7 @@ papers:
     link: https://arxiv.org/pdf/2308.09690 (2023)
     coauthors: Alexander Cloninger, Gal Mishne, Andreas Oslandsbotn, Sawyer Jack Robertson, Yusu Wang
     publishedat: arXiv preprint arXiv:2308.09690 (2023)
+    code: https://github.com/sawyer-jack-1/connection-resistance-demo
   - title: "Distances for Markov Chains, and Their Differentiation"
     link: https://arxiv.org/abs/2302.08621
     coauthors: Tristan Brugère, Yusu Wang
