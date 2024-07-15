@@ -49,8 +49,7 @@ active: home
         {%if imgIndex<=1 %}
           <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
               {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
-              {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-              {% if paper.description %}<br> {{ paper.description }} {% endif %}</li></p>
+              {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}</li></p>
         {% endif %}
     {% endfor %}
     </ul>
@@ -60,8 +59,7 @@ active: home
           {%if imgIndex<=2 %}
             <p><li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}</a> {% else %} {{ paper.title }} {% endif %}
                 {% if paper.coauthors %} (With {{ paper.coauthors }}.) {% endif %}
-                {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}
-                {% if paper.description %}<br> {{ paper.description }} {% endif %}</li></p>
+                {% if paper.publishedat %} <span style="font-style: italic">{{ paper.publishedat }}.</span> {% endif %}</li></p>
           {% endif %}
       {% endfor %}
       </ul>

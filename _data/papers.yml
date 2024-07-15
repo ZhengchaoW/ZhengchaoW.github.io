@@ -1,4 +1,9 @@
 papers:
+  - title: "Random Walks, Conductance, and Resistance for the Connection Graph Laplacian"
+    link: https://arxiv.org/pdf/2308.09690 (2023)
+    coauthors: Alexander Cloninger, Gal Mishne, Andreas Oslandsbotn, Sawyer Jack Robertson, Yusu Wang
+    publishedat: To appear in SIAM Journal on Matrix Analysis and Applications (SIMAX)
+    code: https://github.com/sawyer-jack-1/connection-resistance-demo
   - title: "The ultrametric Gromov-Wasserstein distance"
     link: https://arxiv.org/pdf/2101.05756
     coauthors: Facundo Mémoli, Axel Munk, Christoph Weitkamp
