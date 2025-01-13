@@ -1,4 +1,8 @@
 papers:
+  - title: "Elucidating Flow Matching ODE Dynamics with Respect to Data Geometries"
+    link: https://arxiv.org/pdf/2412.18730
+    coauthors: Qingsong Wang, Gal Mishne, Yusu Wang
+    publishedat: arXiv preprint arXiv:2412.18730 (2024)
   - title: "All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs"
     link: https://arxiv.org/pdf/2404.15261
     coauthors: Sawyer Robertson, Alexander Cloninger
