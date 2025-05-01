@@ -1,8 +1,12 @@
 papers:
+  - title: "Elucidating Flow Matching ODE Dynamics via Data Geometry and Denoisers"
+    link: https://arxiv.org/pdf/2412.18730
+    coauthors: Qingsong Wang, Gal Mishne, Yusu Wang
+    publishedat: To appear in International Conference on Machine Learning (ICML 2025) (arXiv:2412.18730)
   - title: "Comparing Graph Transformers via Positional Encodings"
     link: https://arxiv.org/pdf/2402.14202
     coauthors: Mitchell Black, Gal Mishne, Amir Nayyeri, Yusu Wang
-    publishedat: To appear in International Conference on Machine Learning (ICML 2024)
+    publishedat: International Conference on Machine Learning (ICML 2024)
   - title: "Distances for Markov Chains, and Their Differentiation"
     link: https://proceedings.mlr.press/v237/brugere24a/brugere24a.pdf
     coauthors: Tristan Brugère, Yusu Wang
