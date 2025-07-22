@@ -1,13 +1,13 @@
 papers:
   - title: "Random Walks, Conductance, and Resistance for the Connection Graph Laplacian"
-    link: https://arxiv.org/pdf/2308.09690 (2023)
+    link: https://epubs.siam.org/doi/10.1137/23M1595400
     coauthors: Alexander Cloninger, Gal Mishne, Andreas Oslandsbotn, Sawyer Jack Robertson, Yusu Wang
-    publishedat: To appear in SIAM Journal on Matrix Analysis and Applications (SIMAX)
+    publishedat: SIAM Journal on Matrix Analysis and Applications (SIMAX). arXiv preprint arXiv:2308.09690 (2023) 
     code: https://github.com/sawyer-jack-1/connection-resistance-demo
   - title: "The ultrametric Gromov-Wasserstein distance"
     link: https://arxiv.org/pdf/2101.05756
     coauthors: Facundo Mémoli, Axel Munk, Christoph Weitkamp
-    publishedat: To appear in Discrete & Computational Geometry. arXiv preprint arXiv:2101.05756 (2023)
+    publishedat: Discrete & Computational Geometry. arXiv preprint arXiv:2101.05756 (2023)
     code: https://github.com/ndag/uGW
     description: We identify and study ultrametric versions of both Sturm’s Gromov-Wasserstein distance and the Gromov-Wasserstein distance.
   - title: "Characterization of Gromov-type geodesics"
