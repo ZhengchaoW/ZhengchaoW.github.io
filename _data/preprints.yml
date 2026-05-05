@@ -1,8 +1,4 @@
 papers:
-  - title: "Two Calm Ends and the Wild Middle: A Geometric Picture of Memorization in Diffusion Models"
-    link: https://arxiv.org/pdf/2602.17846
-    coauthors: Nick Dodson, Xinyu Gao, Qingsong Wang, Yusu Wang
-    publishedat: arXiv preprint arXiv:2602.17846 (2026)
   - title: "Robust Graph-Based Semi-Supervised Learning via $p$-Conductances"
     link: https://arxiv.org/pdf/2502.08873
     coauthors: Sawyer Jack Robertson, Chester Holtz, Gal Mishne, Alexander Cloninger

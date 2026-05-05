@@ -1,0 +1,40 @@
+---
+layout: base
+active: teaching
+opengraph:
+  title: MFAI Spring 2026
+---
+
+<div class="container">
+  <section>
+    <h2>MATH 9787: Mathematical Foundations of AI</h2>
+    <p><b>Spring 2026, University of Missouri.</b> Invited talks connected to the course, listed through the Department of Mathematics Geometry and Topology Seminar.</p>
+    <p>Source: <a href="https://math.missouri.edu/seminars">University of Missouri Mathematics seminars</a>.</p>
+  </section>
+  <hr>
+  <section>
+    <h3>Invited Speakers</h3>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Speaker</th>
+          <th>Talk</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for talk in site.data.mfai_2026_speakers.speakers %}
+        <tr>
+          <td>{{ talk.date }}<br><span style="color: #666">{{ talk.time }} &middot; {{ talk.location }}</span></td>
+          <td>{{ talk.speaker }}<br><span style="color: #666">{{ talk.affiliation }}</span></td>
+          <td>
+            <b>{{ talk.title }}</b><br>
+            {{ talk.summary }}<br>
+            <span style="color: #666">{{ talk.seminar }}</span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>
