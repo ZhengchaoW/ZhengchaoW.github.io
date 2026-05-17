@@ -203,3 +203,171 @@ h2.huge {
   padding-top: 12px;
   padding-bottom: 6px;
 }
+
+/* Course pages */
+.course-page .container {
+  max-width: 860px;
+}
+
+.course-page section {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.course-hero {
+  border-bottom: 1px solid #d9dde3;
+  padding: 34px 0 28px;
+}
+
+.course-kicker {
+  color: #58606b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.course-page h2 {
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  text-transform: none;
+}
+
+.course-page h3 {
+  color: #24272d;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.speaker-section {
+  padding: 28px 0 0;
+}
+
+.speaker-list {
+  border-top: 1px solid #d9dde3;
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.speaker-item {
+  border-bottom: 1px solid #cfd6dd;
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 180px minmax(0, 1fr);
+  padding: 28px 0;
+}
+
+.speaker-date {
+  color: #58606b;
+  line-height: 1.45;
+}
+
+.speaker-date span {
+  display: block;
+}
+
+.speaker-date-main {
+  color: #1f2329;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.speaker-body h4 {
+  color: #171a1f;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin: 0 0 10px;
+}
+
+.speaker-body p {
+  margin-bottom: 8px;
+}
+
+.talk-abstract p {
+  margin-bottom: 10px;
+}
+
+.talk-abstract p:last-child {
+  margin-bottom: 0;
+}
+
+.abstract-details {
+  margin-top: 8px;
+}
+
+.abstract-details summary {
+  color: #58606b;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.abstract-details summary:hover {
+  color: #000;
+}
+
+.abstract-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract-details summary::before {
+  content: "+";
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.abstract-details[open] summary {
+  margin-bottom: 10px;
+}
+
+.abstract-details[open] summary::before {
+  content: "-";
+}
+
+.speaker-name {
+  color: #171a1f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.speaker-name a {
+  color: inherit;
+  font-weight: 700;
+}
+
+.speaker-name a:hover {
+  color: #000;
+}
+
+.speaker-name span {
+  color: #68707a;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .course-hero {
+    padding-top: 24px;
+  }
+
+  .course-page h2 {
+    font-size: 29px;
+  }
+
+  .speaker-item {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
+}
