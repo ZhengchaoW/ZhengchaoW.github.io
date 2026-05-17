@@ -10,18 +10,25 @@ opengraph:
   <section class="course-hero">
     <p class="course-kicker">Spring 2026 &middot; University of Missouri</p>
     <h2>MATH 9787: Mathematical Foundations of AI</h2>
+    <p class="course-sub">Invited speaker series, concluded, {{ site.data.mfai_2026_speakers.speakers | size }} talks.</p>
   </section>
 
   <section class="speaker-section">
     <h3>Invited Speakers</h3>
 
-    <ol class="speaker-list">
+    <ul class="speaker-list">
       {% for talk in site.data.mfai_2026_speakers.speakers %}
       <li class="speaker-item">
         <div class="speaker-date">
-          <span class="speaker-date-main">{{ talk.date }}</span>
-          <span>{{ talk.time }}</span>
-          <span>{{ talk.location }}</span>
+          <div class="date-badge">
+            <span class="date-month">{{ talk.date | date: "%b" }}</span>
+            <span class="date-day">{{ talk.date | date: "%-d" }}</span>
+            <span class="date-year">{{ talk.date | date: "%Y" }}</span>
+          </div>
+          <div class="date-meta">
+            <span>{{ talk.time }}</span>
+            <span>{{ talk.location }}</span>
+          </div>
         </div>
         <div class="speaker-body">
           <p class="speaker-name">
@@ -29,15 +36,20 @@ opengraph:
             <a href="{{ talk.speaker_url }}">{{ talk.speaker }}</a>
             {% else %}
             {{ talk.speaker }}
-            {% endif %}
-            <span>{{ talk.affiliation }}</span>
+            {% endif %}<span class="speaker-affiliation">{{ talk.affiliation }}</span>
           </p>
-          <h4>{{ talk.title }}</h4>
+          <h4 class="talk-title">
+            {% if talk.source_url %}
+            <a href="{{ talk.source_url }}">{{ talk.title }}</a>
+            {% else %}
+            {{ talk.title }}
+            {% endif %}
+          </h4>
           <div class="talk-abstract">
             <p>{{ talk.abstract.first }}</p>
             {% if talk.abstract.size > 1 %}
             <details class="abstract-details">
-              <summary>Read more</summary>
+              <summary><span class="summary-label-more">Read more</span><span class="summary-label-less">Show less</span></summary>
               {% for paragraph in talk.abstract offset:1 %}
               <p>{{ paragraph }}</p>
               {% endfor %}
@@ -47,6 +59,6 @@ opengraph:
         </div>
       </li>
       {% endfor %}
-    </ol>
+    </ul>
   </section>
 </div>
