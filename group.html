@@ -1,0 +1,55 @@
+---
+layout: base
+active: group
+opengraph:
+  title: Research Group
+---
+
+<div class="container">
+  <section>
+    <h2>Research Group</h2>
+    <br>
+    <p>We study the mathematical foundations of data analysis and machine learning,
+       using tools from metric geometry, topology, and probability. A current focus of the
+       group is the geometry of generative models, and in particular how diffusion models
+       generalize.</p>
+    <p>The group is based in the <a href="https://math.missouri.edu">Department of
+       Mathematics</a> at the University of Missouri. Our work is supported in part by the
+       National Science Foundation through award
+       <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2502083&HistoricalAwards=false">DMS&nbsp;2502083</a>
+       (<a href="https://www.nsf.gov/funding/opportunities/mfai-mathematical-foundations-artificial-intelligence">Mathematical Foundations of Artificial Intelligence</a>).</p>
+    <hr>
+
+    <h3>Principal Investigator</h3>
+    <ul>
+      <li><p><a href="index.html">Zhengchao Wan</a>, Assistant Professor of Mathematics</p></li>
+    </ul>
+
+    {% if site.data.group.phd %}
+    <h3>Graduate Students</h3>
+    <ul>
+      {% for person in site.data.group.phd %}
+      <li><p>{% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.note %} &mdash; {{ person.note }}{% endif %}</p></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.group.reading %}
+    <h3>Reading Course Students</h3>
+    <ul>
+      {% for person in site.data.group.reading %}
+      <li><p>{% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.note %} &mdash; {{ person.note }}{% endif %}</p></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.group.alumni %}
+    <h3>Alumni</h3>
+    <ul>
+      {% for person in site.data.group.alumni %}
+      <li><p>{% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.note %} ({{ person.note }}){% endif %}</p></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+</div>
